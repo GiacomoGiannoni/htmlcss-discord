@@ -191,6 +191,9 @@ main section{
     width: 100%;
 }
 
+main .full-column col h2{
+    background-image: url(/img/stars.svg);
+}
 /*footer*/
 
 footer{
@@ -232,4 +235,14 @@ footer{
 
 .footer-bottom col{
     padding: 5px; 
+}
+
+footer .menu-column col li{
+    color: white;
+    list-style: none;
+}
+
+.bt-purple{
+    padding: 5px;
+    background-color: #7289DA;
 }
